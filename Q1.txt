@@ -1,4 +1,6 @@
-object Q01 {
+package Labsheet10
+
+object Q1 {
   def main(args: Array[String]) {
     def calculateAverage(l:List[Double]):Double = {
       val f_arr:List[Double] = l.map((x:Double) => ((x*9.0)/5)+32);
@@ -7,5 +9,5 @@ object Q01 {
     }
     
     println("Average Fahrenheit temperature : "+calculateAverage(List(0,10,20,30)))
-  }
+}
 }
